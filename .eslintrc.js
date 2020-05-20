@@ -1,6 +1,5 @@
 module.exports = {
-  extends: ['eslint:recommended', 'prettier'],
-  plugins: ['prettier'],
+  extends: ['eslint:recommended'],
   parserOptions: {
     ecmaVersion: 6,
   },
@@ -8,8 +7,7 @@ module.exports = {
     node: true,
   },
   rules:{
-    quotes:['error','single',{
-      avoidEscape:true
-    }],
+    quotes:['error','single',{avoidEscape:true}],
+    'comma-dangle': ['error','always-multiline'],
   },
 }

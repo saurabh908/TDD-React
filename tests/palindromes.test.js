@@ -7,4 +7,6 @@ describe('palindromes()', () => {
     })
 })
 
+const arr = [1, 2];
+
 //npx prettier-eslint $PWD/tests/palindromes.test.js

@@ -5,7 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . && prettier-eslint --list-different $PWD/**/*.js",
+    "format": "prettier-eslint --write $PWD/**/*.js"
   },
   "keywords": [],
   "author": "",
